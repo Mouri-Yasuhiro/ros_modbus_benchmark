@@ -1,14 +1,14 @@
 # modbus_benchmark
 
 ## Build
- `catkin_make -C ~/catkin_ws --pkg modbus_test`
+ `catkin_make -C ~/catkin_ws --pkg modbus_benchmark`
 
 ## Run
  default ( ip: 127.0.0.1 port:502 )  
-  `roslaunch modbus_test modbus_bench.launch`
+  `roslaunch modbus_benchmark modbus_bench.launch`
  
  costom  
-  `roslaunch modbus_test modbus_bench.launch ip_adrs:=127.0.0.1 port:=502`  
+  `roslaunch modbus_benchmark modbus_bench.launch ip_adrs:=127.0.0.1 port:=502`  
 
 ## Params
 |Name|Dafault|Discription|

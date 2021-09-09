@@ -7,7 +7,7 @@
     <arg name="use_multi_thread" default="false" />
 
 
-  <node pkg="modbus_test" type="modbus_test" name="modbus_benchmark" output="screen">
+  <node pkg="modbus_benchmark" type="modbus_benchmark" name="modbus_benchmark" output="screen">
     <param name="ip_adrs" value="$(arg ip_adrs)"/>
     <param name="port" value="$(arg port)" />
     <param name="loop_limit" value="$(arg loop_limit)"/>

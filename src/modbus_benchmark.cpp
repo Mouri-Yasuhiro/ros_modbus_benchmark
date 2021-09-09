@@ -1,7 +1,7 @@
-#include <modbus_test/modbus_interface.hpp>
+#include <modbus_benchmark/modbus_interface.hpp>
 
 int main(int argc, char* argv[]){
-  ros::init(argc, argv, "modbus_test");
+  ros::init(argc, argv, "modbus_benchmark");
   ros::NodeHandle nh_private = ros::NodeHandle("~");
 
   std::string ip_adrs="127.0.0.1";
@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
   nh_private.getParam("num_bit_register",num_bit_register);
   nh_private.getParam("num_holding_register",num_holding_register);
 
-  ModbusInterface mod_if(ip_adrs, port, slave_id, loop_limit, start_register);
+  ModbusInterface mod_if(ip_adrs, port, slave_id, loop_limit, start_register, num_bit_register, num_holding_register);
 
   std::vector<std::thread> threads;
   for(int i=0;i<(int)End;++i){

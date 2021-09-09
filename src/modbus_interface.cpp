@@ -1,4 +1,4 @@
-#include <modbus_test/modbus_interface.hpp>
+#include <modbus_benchmark/modbus_interface.hpp>
 
 ModbusInterface::ModbusInterface(std::string ip_adrs, int port, int slave_id, int loop_limit, int start_register, int num_bit_register, int num_holding_register)
   :loop_limit_(loop_limit), start_register_(start_register), num_bit_register_(num_bit_register), num_holding_register_(num_holding_register)

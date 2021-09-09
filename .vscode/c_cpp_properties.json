@@ -22,7 +22,7 @@
         "/home/makino/catkin_ws/src/navigation/map_server/include/**",
         "/home/makino/catkin_ws/src/marvelmind_makino/include/**",
         "/home/makino/catkin_ws/src/ros_marvelmind_package/include/**",
-        "/home/makino/catkin_ws/src/modbus_test/include/**",
+        "/home/makino/catkin_ws/src/modbus_benchmark/include/**",
         "/home/makino/catkin_ws/src/navigation/move_base/include/**",
         "/home/makino/catkin_ws/src/navigation/move_slow_and_clear/include/**",
         "/home/makino/catkin_ws/src/iassist_ros/makino_agv/utilities/multi_lidar_calibrator/include/**",

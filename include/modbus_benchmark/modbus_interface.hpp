@@ -1,5 +1,5 @@
-#ifndef MODBUS_TEST_MODBUS_INTERFACE_HPP
-#define MODBUS_TEST_MODBUS_INTERFACE_HPP
+#ifndef MODBUS_BENCHMARK_MODBUS_INTERFACE_HPP
+#define MODBUS_BENCHMARK_MODBUS_INTERFACE_HPP
 #pragma once
 
 #include <ros/ros.h>
@@ -19,7 +19,7 @@ enum BenchmarkType{
 
 class ModbusInterface{
 public:
-  ModbusInterface(std::string ip_adrs, int port, int slave_id, int loop_limit, int start_register);
+  ModbusInterface(std::string ip_adrs, int port, int slave_id, int loop_limit, int start_register, int num_bit_register, int num_holding_register);
   ~ModbusInterface();
 
   void runBenchmark(BenchmarkType type);
