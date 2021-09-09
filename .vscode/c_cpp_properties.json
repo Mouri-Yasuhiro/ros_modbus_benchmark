@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/makino/catkin_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/makino_agv/agv_io/include/**",
+        "/home/makino/catkin_ws/src/navigation/amcl/include/**",
+        "/home/makino/catkin_ws/src/navigation/base_local_planner/include/**",
+        "/home/makino/catkin_ws/src/navigation/carrot_planner/include/**",
+        "/home/makino/catkin_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/makino/catkin_ws/src/navigation/costmap_2d/include/**",
+        "/home/makino/catkin_ws/src/navigation/costmap_3d/include/**",
+        "/home/makino/catkin_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/makino/catkin_ws/src/navigation/global_planner/include/**",
+        "/home/makino/catkin_ws/src/hough_test/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/iassist_spec/include/**",
+        "/home/makino/catkin_ws/src/navigation/map_server/include/**",
+        "/home/makino/catkin_ws/src/marvelmind_makino/include/**",
+        "/home/makino/catkin_ws/src/ros_marvelmind_package/include/**",
+        "/home/makino/catkin_ws/src/modbus_test/include/**",
+        "/home/makino/catkin_ws/src/navigation/move_base/include/**",
+        "/home/makino/catkin_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/makino_agv/utilities/multi_lidar_calibrator/include/**",
+        "/home/makino/catkin_ws/src/multiple-object-tracking-lidar/include/**",
+        "/home/makino/catkin_ws/src/navigation/nav_core/include/**",
+        "/home/makino/catkin_ws/src/navigation/navfn/include/**",
+        "/home/makino/catkin_ws/src/object_move_estimate/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/makino_agv/omron_driver/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/makino_agv/utilities/oriental_driver/include/**",
+        "/home/makino/catkin_ws/src/remap_scan/include/**",
+        "/home/makino/catkin_ws/src/robot_localization/include/**",
+        "/home/makino/catkin_ws/src/navigation/robot_pose_ekf/include/**",
+        "/home/makino/catkin_ws/src/navigation/rotate_recovery/include/**",
+        "/home/makino/catkin_ws/src/sick_lidar_localization/include/**",
+        "/home/makino/catkin_ws/src/sick_safetyscanners/include/**",
+        "/home/makino/catkin_ws/src/sicks300/include/**",
+        "/home/makino/catkin_ws/src/speed_recorder/include/**",
+        "/home/makino/catkin_ws/src/iassist_ros/makino_agv/agv_LED_driver/tapeled_driver/include/**",
+        "/home/makino/catkin_ws/src/unittest_traning/include/**",
+        "/home/makino/catkin_ws/src/virtual_wall/include/**",
+        "/home/makino/catkin_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

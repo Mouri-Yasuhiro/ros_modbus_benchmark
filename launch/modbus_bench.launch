@@ -1,0 +1,19 @@
+<?xml version="2.0"?>
+<launch>
+    <arg name="ip_adrs" default="127.0.0.1" />
+    <arg name="port" default="502" />
+    <arg name="loop_limit" default="100" />
+    <arg name="start_register" default="4000" />
+    <arg name="use_multi_thread" default="false" />
+
+
+  <node pkg="modbus_test" type="modbus_test" name="modbus_benchmark" output="screen">
+    <param name="ip_adrs" value="$(arg ip_adrs)"/>
+    <param name="port" value="$(arg port)" />
+    <param name="loop_limit" value="$(arg loop_limit)"/>
+    <param name="start_register" value="$(arg start_register)" />
+    <param name="use_multi_thread" value="$(arg use_multi_thread)" />
+
+  </node>
+
+</launch>
